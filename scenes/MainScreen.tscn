@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://cm0rnnfibmlmi"]
+[gd_scene load_steps=3 format=3 uid="uid://cm0rnnfibmlmi"]
+
+[ext_resource type="FontVariation" uid="uid://cw5xheg0v4g44" path="res://resource/new_font_variation.tres" id="1_u0mxg"]
+[ext_resource type="Script" path="res://scripts/Main.gd" id="1_y8xm8"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -7,6 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_y8xm8")
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -22,17 +26,303 @@ theme_override_constants/margin_bottom = 30
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
 layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
 
 [node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
+size_flags_vertical = 2
 theme_override_font_sizes/font_size = 86
 text = "MosquePrayer"
 horizontal_alignment = 1
 
 [node name="Label2" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
-theme_override_font_sizes/font_size = 86
-text = "version 0.1
-testing files update
-in git"
+size_flags_vertical = 2
+theme_override_font_sizes/font_size = 71
+text = "version 0.2
+Getting the ui to work"
 horizontal_alignment = 1
+
+[node name="PrayerTimingContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(763.41, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/separation = 61
+
+[node name="FajrContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/FajrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Fajr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/FajrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="FajrCountdown" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="FajrTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="FajrIqamaOffset" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="FajrIqamaTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="SunriseContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Sunrise"
+
+[node name="TimeContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="SunriseCountdown" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="SunriseTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="SunriseIqamaOffset" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="SunriseIqamaTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="DhuhrContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Dhuhr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="DhuhrCountdown" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="DhuhrTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="DhuhrIqamaOffset" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="DhuhrIqamaTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="AsrContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/AsrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Asr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/AsrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="AsrCountdown" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="AsrTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="AsrIqamaOffset" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="AsrIqamaTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="MaghribContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Maghrib
+"
+
+[node name="TimeContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="MaghribCountdown" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="MaghribTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="MaghribIqamaOffset" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="MaghribIqamaTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="IshaContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Isha
+"
+
+[node name="TimeContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="IshaCountdown" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="IshaTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="IshaIqamaOffset" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="IshaIqamaTime" type="Label" parent="MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="Label3" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 71
+text = "Mosque name"
+horizontal_alignment = 1
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
