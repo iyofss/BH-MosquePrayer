@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://cw5xheg0v4g44"]
+
+[ext_resource type="FontFile" uid="uid://6ldt4nmrg34f" path="res://resource/fonts/impact.ttf" id="1_liyyh"]
+
+[resource]
+base_font = ExtResource("1_liyyh")
