@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="BH-MosquePrayer"
+config/name="BHMosquePrayer"
 run/main_scene="res://scenes/MainScreen.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 boot_splash/image="res://splash.png"
@@ -29,3 +29,4 @@ window/handheld/orientation=1
 [rendering]
 
 renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
