@@ -32,6 +32,18 @@ extends Control
 @onready var isha_iqama_offset = $MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer/IqamaContainer/IshaIqamaOffset
 @onready var isha_iqama_time = $MarginContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer/IqamaContainer/IshaIqamaTime
 
+@onready var color_rect = $MarginContainer/ColorRect
+@onready var mosque_name_label = $MarginContainer/VBoxContainer/MosqueNameLabel
+@onready var dhuhr_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer2/DhuhrIqamaTextEdit
+@onready var fajr_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer/FajrIqamaTextEdit
+@onready var asr_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer3/AsrIqamaTextEdit
+@onready var maghrib_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer4/MaghribIqamaTextEdit
+@onready var isha_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer5/IshaIqamaTextEdit
+@onready var mosque_name_text_edit = $MarginContainer/ColorRect/VBoxContainer/VBoxContainer/MosqueNameTextEdit
+
+@onready var date_label = $MarginContainer/VBoxContainer/dateLabel
+
+
 var fajr_time_json = 'null'
 var sunrise_time_json = 'null'
 var dhuhr_time_json = 'null'
@@ -39,15 +51,74 @@ var asr_time_json = 'null'
 var maghrib_time_json = 'null'
 var isha_time_json = 'null'
 
+var fajr_iqama_offset_json = '0'
+var dhuhr_iqama_offset_json = '0'
+var asr_iqama_offset_json = '0'
+var maghrib_iqama_offset_json = '0'
+var isha_iqama_offset_json = '0'
+var mosque_name_json = ''
+
 
 var date = '2024-07-28'
 var PrayerTimeData = 'temp'
 var IqamaTimeData = 'temp'
-
+var currentTime = ''
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	currentTime = Time.get_datetime_dict_from_system()
+	
+
+	
+	print(currentTime)
+	print(calculate_countdown("14:30" + ":00", "16:40" + ":00"))
+	setiqamacountdownoffset()
 	loadprayertime()
 	#print(PrayerTimeData)
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	currentTime = Time.get_datetime_dict_from_system()
+	#var currentYear = currentTime['year']
+	date = Time.get_date_string_from_system()
+	#print(date)
+	loadprayertime()
+
+func calculate_countdown(time_a: String, time_b: String) -> String:
+	# Split the time strings into hours, minutes, and seconds
+	var time_a_split = time_a.split(":")
+	var time_b_split = time_b.split(":")
+	
+	# Convert split values to integers
+	var hour_a = int(time_a_split[0])
+	var minute_a = int(time_a_split[1])
+	var second_a = int(time_a_split[2])
+	
+	var hour_b = int(time_b_split[0])
+	var minute_b = int(time_b_split[1])
+	var second_b = int(time_b_split[2])
+	
+	# Calculate total seconds from the start of the day for each time
+	var total_seconds_a = hour_a * 3600 + minute_a * 60 + second_a
+	var total_seconds_b = hour_b * 3600 + minute_b * 60 + second_b
+	
+	# Calculate the absolute difference in seconds between the two times
+	var countdown_seconds = abs(total_seconds_b - total_seconds_a)
+	
+	# Convert the countdown seconds back into hours, minutes, and seconds
+	var hours = countdown_seconds / 3600
+	countdown_seconds %= 3600
+	var minutes = countdown_seconds / 60
+	countdown_seconds %= 60
+	var seconds = countdown_seconds
+	
+	# Format the result as HH:MM:SS and return
+	return pad_zero(hours) + ":" + pad_zero(minutes)
+	#return pad_zero(hours) + ":" + pad_zero(minutes) + ":" + pad_zero(seconds)
+# Custom function to pad a number with zeroes to ensure two digits
+func pad_zero(value: int) -> String:
+	if value < 10:
+		return "0" + str(value)
+	return str(value)
 
 # this will check if the prayer time json exist and if so it will load it.
 func loadprayertime():
@@ -63,6 +134,12 @@ func loadprayertime():
 		maghrib_time_json = PrayerTimeData["prayerTime"][date]["maghrib"]
 		isha_time_json = PrayerTimeData["prayerTime"][date]["isha"]
 		
+		fajr_iqama_time.text = add_minutes_to_time(military_to_standard_time(fajr_time_json), int(fajr_iqama_offset_json))
+		dhuhr_iqama_time.text = add_minutes_to_time(military_to_standard_time(dhuhr_time_json), int(dhuhr_iqama_offset_json))
+		asr_iqama_time.text = add_minutes_to_time(military_to_standard_time(asr_time_json), int(asr_iqama_offset_json))
+		maghrib_iqama_time.text = add_minutes_to_time(military_to_standard_time(maghrib_time_json), int(maghrib_iqama_offset_json))
+		isha_iqama_time.text = add_minutes_to_time(military_to_standard_time(isha_time_json), int(isha_iqama_offset_json))
+		
 		setprayertimelabel()
 	else:
 		print('Missing Prayer Time Json, Will proceed to save it!')
@@ -72,11 +149,38 @@ func loadprayertime():
 func saveprayertime():
 	pass
 
+# this is resposible for the label changing of the iqama countdown, offset and mosque name.
+func setiqamacountdownoffset():
+	if FileAccess.file_exists("res://data/iqama.json"):
+		var file = FileAccess.open("res://data/iqama.json", FileAccess.READ)
+		IqamaTimeData = JSON.parse_string(file.get_as_text())
+		
+		fajr_iqama_offset_json = IqamaTimeData["IqamaOffset"]["Fajr"]
+		dhuhr_iqama_offset_json = IqamaTimeData["IqamaOffset"]["Dhuhr"]
+		asr_iqama_offset_json = IqamaTimeData["IqamaOffset"]["Asr"]
+		maghrib_iqama_offset_json = IqamaTimeData["IqamaOffset"]["Maghrib"]
+		isha_iqama_offset_json = IqamaTimeData["IqamaOffset"]["Isha"]
+		mosque_name_json = IqamaTimeData["IqamaOffset"]["MosqueName"]
+		
+		fajr_iqama_offset.text = fajr_iqama_offset_json
+		dhuhr_iqama_offset.text = dhuhr_iqama_offset_json
+		asr_iqama_offset.text = asr_iqama_offset_json
+		maghrib_iqama_offset.text = maghrib_iqama_offset_json
+		isha_iqama_offset.text = isha_iqama_offset_json
+		
+		mosque_name_label.text = mosque_name_json
+		
+		
+		
+
+		
+	else:
+		print('Missing Prayer iqama Json!')
+
+
 # this will set the prayer time labels to the timings in the json file.
 func setprayertimelabel():
 	fajr_time.text = military_to_standard_time(fajr_time_json)
-	fajr_iqama_offset.text = str(25)
-	fajr_iqama_time.text = add_minutes_to_time(military_to_standard_time(fajr_time_json), 25)
 	
 	sunrise_time.text = military_to_standard_time(sunrise_time_json)
 	
@@ -87,6 +191,9 @@ func setprayertimelabel():
 	maghrib_time.text = military_to_standard_time(maghrib_time_json)
 	
 	isha_time.text = military_to_standard_time(isha_time_json)
+	
+#	this is temp thing, it will set the date label to the date.
+	date_label.text = date
 	
 
 # this will take military time as input and will output standard time.
@@ -172,12 +279,13 @@ var c = 10
 
 func setiqamatime():
 	var iqama_data = {
-	mosque_name_text_edit.text: {
+	"IqamaOffset": {
+		"MosqueName": mosque_name_text_edit.text,
 		"Fajr": fajr_iqama_text_edit.text,
 		"Dhuhr": dhuhr_iqama_text_edit.text,
 		"Asr": asr_iqama_text_edit.text,
 		"Maghrib": maghrib_iqama_text_edit.text,
-		"Isha": isha_iqama_text_edit.text,
+		"Isha": isha_iqama_text_edit.text
 	}
 }
 
@@ -188,18 +296,11 @@ func setiqamatime():
 	
 	
 
-@onready var color_rect = $MarginContainer/ColorRect
-@onready var mosque_name_label = $MarginContainer/VBoxContainer/MosqueNameLabel
-@onready var dhuhr_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer2/DhuhrIqamaTextEdit
-@onready var fajr_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer/FajrIqamaTextEdit
-@onready var asr_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer3/AsrIqamaTextEdit
-@onready var maghrib_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer4/MaghribIqamaTextEdit
-@onready var isha_iqama_text_edit = $MarginContainer/ColorRect/VBoxContainer/HBoxContainer5/IshaIqamaTextEdit
-@onready var mosque_name_text_edit = $MarginContainer/ColorRect/VBoxContainer/VBoxContainer/MosqueNameTextEdit
 
 
 func _on_back_iqama_button_2_pressed():
 	color_rect.visible = false
+	setiqamacountdownoffset()
 
 
 
@@ -209,8 +310,3 @@ func _on_set_iqama_button_pressed():
 
 func _on_apply_iqama_button_pressed():
 	setiqamatime()
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	pass
