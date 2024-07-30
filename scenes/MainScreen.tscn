@@ -1,7 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://cm0rnnfibmlmi"]
+[gd_scene load_steps=5 format=3 uid="uid://cm0rnnfibmlmi"]
 
 [ext_resource type="FontVariation" uid="uid://cw5xheg0v4g44" path="res://resource/new_font_variation.tres" id="1_u0mxg"]
 [ext_resource type="Script" path="res://scripts/Main.gd" id="1_y8xm8"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_15otv"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pn3rh"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -11,6 +15,15 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_y8xm8")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.160784, 0.458824, 0.568627, 1)
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
@@ -317,12 +330,167 @@ theme_override_fonts/font = ExtResource("1_u0mxg")
 theme_override_font_sizes/font_size = 48
 text = "00:00 AM"
 
-[node name="Label3" type="Label" parent="MarginContainer/VBoxContainer"]
+[node name="MosqueNameLabel" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 6
 theme_override_fonts/font = ExtResource("1_u0mxg")
 theme_override_font_sizes/font_size = 71
 text = "Mosque name"
+
+[node name="SetIqamaButton" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 96
+theme_override_styles/focus = SubResource("StyleBoxEmpty_15otv")
+text = "Set iqama time"
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer"]
+visible = false
+layout_mode = 2
+color = Color(0.313726, 0.521569, 0.545098, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 43
+
+[node name="Label" type="Label" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 96
+text = "Set Iqama Offset"
 horizontal_alignment = 1
 
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Fajr"
+
+[node name="FajrIqamaTextEdit" type="TextEdit" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Dhuhr"
+
+[node name="DhuhrIqamaTextEdit" type="TextEdit" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Asr"
+
+[node name="AsrIqamaTextEdit" type="TextEdit" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Maghrib"
+
+[node name="MaghribIqamaTextEdit" type="TextEdit" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Isha"
+
+[node name="IshaIqamaTextEdit" type="TextEdit" parent="MarginContainer/ColorRect/VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/ColorRect/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 81
+text = "Mosque name:"
+
+[node name="MosqueNameTextEdit" type="TextEdit" parent="MarginContainer/ColorRect/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 91.055)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "Mosque name"
+
+[node name="ApplyIqamaButton" type="Button" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 96
+theme_override_styles/focus = SubResource("StyleBoxEmpty_15otv")
+text = "apply iqama time"
+
+[node name="BackIqamaButton2" type="Button" parent="MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 96
+theme_override_styles/focus = SubResource("StyleBoxEmpty_15otv")
+text = "back"
+
 [node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/SetIqamaButton" to="." method="_on_set_iqama_button_pressed"]
+[connection signal="pressed" from="MarginContainer/ColorRect/VBoxContainer/ApplyIqamaButton" to="." method="_on_apply_iqama_button_pressed"]
+[connection signal="pressed" from="MarginContainer/ColorRect/VBoxContainer/BackIqamaButton2" to="." method="_on_back_iqama_button_2_pressed"]
