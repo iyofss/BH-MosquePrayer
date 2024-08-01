@@ -43,6 +43,8 @@ extends Control
 
 @onready var date_label = $MarginContainer/VBoxContainer/dateLabel
 
+var mainDir = 'res://'
+#var mainDir = 'user://'
 
 var fajr_time_json = 'null'
 var sunrise_time_json = 'null'
@@ -123,8 +125,8 @@ func pad_zero(value: int) -> String:
 # this will check if the prayer time json exist and if so it will load it.
 func loadprayertime():
 # if the file does not exist it will run a func that will save it from github.
-	if FileAccess.file_exists("res://data/prayer_timings_military_time.json"):
-		var file = FileAccess.open("res://data/prayer_timings_military_time.json", FileAccess.READ)
+	if FileAccess.file_exists(mainDir + "/data/prayer_timings_military_time.json"):
+		var file = FileAccess.open(mainDir + "/data/prayer_timings_military_time.json", FileAccess.READ)
 		PrayerTimeData = JSON.parse_string(file.get_as_text())
 		
 		fajr_time_json = PrayerTimeData["prayerTime"][date]["fajr"]
@@ -151,8 +153,8 @@ func saveprayertime():
 
 # this is resposible for the label changing of the iqama countdown, offset and mosque name.
 func setiqamacountdownoffset():
-	if FileAccess.file_exists("res://data/iqama.json"):
-		var file = FileAccess.open("res://data/iqama.json", FileAccess.READ)
+	if FileAccess.file_exists(mainDir + "/data/iqama.json"):
+		var file = FileAccess.open(mainDir + "/data/iqama.json", FileAccess.READ)
 		IqamaTimeData = JSON.parse_string(file.get_as_text())
 		
 		fajr_iqama_offset_json = IqamaTimeData["IqamaOffset"]["Fajr"]
@@ -290,7 +292,7 @@ func setiqamatime():
 }
 
 	var iqama_string = JSON.stringify(iqama_data, "\t")
-	var file = FileAccess.open("res://data/iqama.json", FileAccess.WRITE)
+	var file = FileAccess.open(mainDir + "/data/iqama.json", FileAccess.WRITE)
 	file.store_string(iqama_string)
 	file.close()
 	
