@@ -1,0 +1,17 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://d17opb3cusdbb"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_rgo4n"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y17co"]
+bg_color = Color(0.203922, 0.65098, 0.827451, 1)
+corner_radius_top_left = 50
+corner_radius_top_right = 50
+corner_radius_bottom_right = 50
+corner_radius_bottom_left = 50
+expand_margin_left = 35.0
+expand_margin_right = 35.0
+
+[resource]
+default_font_size = 115
+Button/styles/focus = SubResource("StyleBoxEmpty_rgo4n")
+Button/styles/normal = SubResource("StyleBoxFlat_y17co")
