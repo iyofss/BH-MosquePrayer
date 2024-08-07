@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://cm0rnnfibmlmi"]
+[gd_scene load_steps=52 format=3 uid="uid://cm0rnnfibmlmi"]
 
 [ext_resource type="FontVariation" uid="uid://cw5xheg0v4g44" path="res://resource/new_font_variation.tres" id="1_u0mxg"]
 [ext_resource type="Script" path="res://scripts/Main.gd" id="1_y8xm8"]
@@ -7,6 +7,327 @@
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_15otv"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_pn3rh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0sxen"]
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sdtbn"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_33twe"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_shgad"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x8mie"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qccdu"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_pskp2"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xlyjr"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ui5hg"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_m5eu7"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cujpi"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2ux37"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_38bw1"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cncfn"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_orf8l"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n2d5x"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ukeqi"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_nyi4d"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fnqwl"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lmrl7"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qi57f"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a6j5h"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3alxb"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f1t38"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qbns1"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_v1pxf"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_exa8u"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o2iw2"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3v7mj"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k6www"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n88ms"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uurd0"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_jor2k"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8w8r7"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_cferx"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5kmsm"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fll43"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_tdjr1"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i3nps"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yaqde"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mil1b"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ebp6g"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vrqhf"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uiqd2"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_meip7"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h6lnu"]
+bg_color = Color(0.752941, 0.533333, 0.529412, 1)
+corner_radius_top_left = 35
+corner_radius_top_right = 35
+corner_radius_bottom_right = 35
+corner_radius_bottom_left = 35
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -27,6 +348,7 @@ grow_vertical = 2
 color = Color(0.160784, 0.458824, 0.568627, 1)
 
 [node name="MarginContainer" type="MarginContainer" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -518,6 +840,1470 @@ text = "back"
 
 [node name="HTTPRequest" type="HTTPRequest" parent="."]
 
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+visible = false
+layout_mode = 2
+offset_left = 805.0
+offset_top = 488.0
+offset_right = 1568.0
+offset_bottom = 2557.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Label" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_font_sizes/font_size = 86
+text = "MosquePrayer"
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_font_sizes/font_size = 71
+text = "version 0.4"
+horizontal_alignment = 1
+
+[node name="dateLabel" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 71
+text = "date display"
+horizontal_alignment = 1
+
+[node name="PrayerTimingContainer" type="VBoxContainer" parent="VBoxContainer2"]
+custom_minimum_size = Vector2(763.41, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_constants/separation = 61
+
+[node name="FajrContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer2/PrayerTimingContainer/FajrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Fajr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/FajrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="FajrCountdown" type="Label" parent="VBoxContainer2/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="FajrTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="FajrIqamaOffset" type="Label" parent="VBoxContainer2/PrayerTimingContainer/FajrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="FajrIqamaTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/FajrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="SunriseContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer2/PrayerTimingContainer/SunriseContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Sunrise"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/SunriseContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="SunriseCountdown" type="Label" parent="VBoxContainer2/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="SunriseTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="SunriseIqamaOffset" type="Label" parent="VBoxContainer2/PrayerTimingContainer/SunriseContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="SunriseIqamaTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/SunriseContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="DhuhrContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer2/PrayerTimingContainer/DhuhrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Dhuhr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/DhuhrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="DhuhrCountdown" type="Label" parent="VBoxContainer2/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="DhuhrTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="DhuhrIqamaOffset" type="Label" parent="VBoxContainer2/PrayerTimingContainer/DhuhrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="DhuhrIqamaTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/DhuhrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="AsrContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer2/PrayerTimingContainer/AsrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Asr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/AsrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="AsrCountdown" type="Label" parent="VBoxContainer2/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="AsrTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="AsrIqamaOffset" type="Label" parent="VBoxContainer2/PrayerTimingContainer/AsrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="AsrIqamaTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/AsrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="MaghribContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer2/PrayerTimingContainer/MaghribContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Maghrib
+"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/MaghribContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="MaghribCountdown" type="Label" parent="VBoxContainer2/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="MaghribTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="MaghribIqamaOffset" type="Label" parent="VBoxContainer2/PrayerTimingContainer/MaghribContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="MaghribIqamaTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/MaghribContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="IshaContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer2/PrayerTimingContainer/IshaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Isha
+"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/IshaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="IshaCountdown" type="Label" parent="VBoxContainer2/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00"
+
+[node name="IshaTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 68
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VBoxContainer2/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="IshaIqamaOffset" type="Label" parent="VBoxContainer2/PrayerTimingContainer/IshaContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00"
+
+[node name="IshaIqamaTime" type="Label" parent="VBoxContainer2/PrayerTimingContainer/IshaContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 48
+text = "00:00 AM"
+
+[node name="MosqueNameLabel" type="Label" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 6
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 71
+text = "Mosque name"
+
+[node name="SetIqamaButton" type="Button" parent="VBoxContainer2"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 96
+theme_override_styles/focus = SubResource("StyleBoxEmpty_15otv")
+text = "Set iqama time"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 6
+theme = ExtResource("3_s0ifr")
+theme_override_constants/separation = 160
+alignment = 1
+
+[node name="Button" type="Button" parent="VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+text = "1"
+
+[node name="Button2" type="Button" parent="VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+text = "2"
+
+[node name="Button3" type="Button" parent="VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+text = "3"
+
+[node name="Button4" type="Button" parent="VBoxContainer2/HBoxContainer"]
+layout_mode = 2
+text = "4"
+
+[node name="VSplitContainer" type="VSplitContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+split_offset = 960
+
+[node name="VSplitContainer" type="VSplitContainer" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+split_offset = -575
+
+[node name="ColorRect" type="ColorRect" parent="VSplitContainer/VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+color = Color(0.266667, 0.639216, 0.819608, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -378.0
+offset_top = -192.0
+offset_right = 378.0
+offset_bottom = 192.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 103
+text = "BH-MosquePrayer
+v0.5
+UI Overhaul"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VSplitContainer" type="VSplitContainer" parent="VSplitContainer/VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="MarginContainer" type="MarginContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="HSplitContainer" type="HSplitContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4
+
+[node name="PrayerTimingContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 21
+
+[node name="FajrContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/FajrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "Fajr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/FajrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="FajrCountdown" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00"
+
+[node name="FajrTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="FajrIqamaOffset" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00"
+
+[node name="FajrIqamaTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/FajrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="SunriseContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "Sunrise"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="SunriseCountdown" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00"
+
+[node name="SunriseTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="SunriseIqamaOffset" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00"
+
+[node name="SunriseIqamaTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/SunriseContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="DhuhrContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "Dhuhr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="DhuhrCountdown" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00"
+
+[node name="DhuhrTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="DhuhrIqamaOffset" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00"
+
+[node name="DhuhrIqamaTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/DhuhrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="AsrContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/AsrContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "Asr"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/AsrContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="AsrCountdown" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00"
+
+[node name="AsrTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="AsrIqamaOffset" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00"
+
+[node name="AsrIqamaTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/AsrContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="MaghribContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "Maghrib
+"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="MaghribCountdown" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00"
+
+[node name="MaghribTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="MaghribIqamaOffset" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00"
+
+[node name="MaghribIqamaTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/MaghribContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="IshaContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/IshaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "Isha
+"
+
+[node name="TimeContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/IshaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_constants/separation = -13
+
+[node name="IshaCountdown" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00"
+
+[node name="IshaTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="IqamaContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer"]
+layout_mode = 2
+
+[node name="IshaIqamaOffset" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00"
+
+[node name="IshaIqamaTime" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/VBoxContainer/PrayerTimingContainer/IshaContainer/TimeContainer/IqamaContainer"]
+layout_mode = 2
+size_flags_horizontal = 10
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 53
+text = "00:00 AM"
+
+[node name="StreakCounterPanel" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -231.5
+offset_top = -517.5
+offset_right = 231.5
+offset_bottom = 517.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 25
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 128
+text = "streak"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="GridContainer2" type="GridContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 5
+
+[node name="Panel1" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2/Panel1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "F"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel2" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2/Panel2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "D"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel3" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2/Panel3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel4" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2/Panel4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "M"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel5" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/GridContainer2/Panel5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "I"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_constants/separation = 15
+
+[node name="GridContainer" type="GridContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer"]
+layout_direction = 2
+layout_mode = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 5
+
+[node name="Panel1" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_sdtbn")
+
+[node name="Panel2" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_33twe")
+
+[node name="Panel3" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_shgad")
+
+[node name="Panel4" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_x8mie")
+
+[node name="Panel5" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_qccdu")
+
+[node name="Panel6" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_pskp2")
+
+[node name="Panel7" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_xlyjr")
+
+[node name="Panel8" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ui5hg")
+
+[node name="Panel9" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_m5eu7")
+
+[node name="Panel10" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_cujpi")
+
+[node name="Panel11" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_2ux37")
+
+[node name="Panel12" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_38bw1")
+
+[node name="Panel13" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_cncfn")
+
+[node name="Panel14" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_orf8l")
+
+[node name="Panel15" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_n2d5x")
+
+[node name="Panel16" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ukeqi")
+
+[node name="Panel17" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_nyi4d")
+
+[node name="Panel18" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_fnqwl")
+
+[node name="Panel19" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_lmrl7")
+
+[node name="Panel20" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_qi57f")
+
+[node name="Panel21" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_a6j5h")
+
+[node name="Panel22" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3alxb")
+
+[node name="Panel23" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_f1t38")
+
+[node name="Panel24" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_qbns1")
+
+[node name="Panel25" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_v1pxf")
+
+[node name="Panel26" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_exa8u")
+
+[node name="Panel27" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_o2iw2")
+
+[node name="Panel28" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3v7mj")
+
+[node name="Panel29" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_k6www")
+
+[node name="Panel30" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_n88ms")
+
+[node name="Panel31" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_uurd0")
+
+[node name="Panel32" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_jor2k")
+
+[node name="Panel33" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_8w8r7")
+
+[node name="Panel34" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_cferx")
+
+[node name="Panel35" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_5kmsm")
+
+[node name="Panel36" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_fll43")
+
+[node name="Panel37" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_tdjr1")
+
+[node name="Panel38" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_i3nps")
+
+[node name="Panel39" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_yaqde")
+
+[node name="Panel40" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_mil1b")
+
+[node name="Panel41" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_ebp6g")
+
+[node name="Panel42" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_vrqhf")
+
+[node name="Panel43" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_uiqd2")
+
+[node name="Panel44" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_meip7")
+
+[node name="Panel45" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_h6lnu")
+
+[node name="Panel46" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_h6lnu")
+
+[node name="Panel47" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_h6lnu")
+
+[node name="Panel48" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_h6lnu")
+
+[node name="Panel49" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_h6lnu")
+
+[node name="Panel50" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_h6lnu")
+
+[node name="GridContainer2" type="GridContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+
+[node name="Panel1" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel1"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "0d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel2" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "1d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel3" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel3"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "2d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel4" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel4"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "3d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel5" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel5"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "4d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel6" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel6"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "5d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel7" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel7"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "6d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel8" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel8"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "7d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel9" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel9"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "8d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Panel10" type="Panel" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2"]
+custom_minimum_size = Vector2(68, 68)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_0sxen")
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/HSplitContainer/StreakCounterPanel/VBoxContainer/VBoxContainer/HBoxContainer/GridContainer2/Panel10"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 46
+text = "9d"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ColorRect" type="ColorRect" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer"]
+visible = false
+layout_mode = 2
+color = Color(0.313726, 0.521569, 0.545098, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 43
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 96
+text = "Set Iqama Offset"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Fajr"
+
+[node name="FajrIqamaTextEdit" type="TextEdit" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Dhuhr"
+
+[node name="DhuhrIqamaTextEdit" type="TextEdit" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer2"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Asr"
+
+[node name="AsrIqamaTextEdit" type="TextEdit" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer3"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer4"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Maghrib"
+
+[node name="MaghribIqamaTextEdit" type="TextEdit" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer4"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 120
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer5"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 126
+text = "Isha"
+
+[node name="IshaIqamaTextEdit" type="TextEdit" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/HBoxContainer5"]
+custom_minimum_size = Vector2(258.575, 0)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "minutes"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 81
+text = "Mosque name:"
+
+[node name="MosqueNameTextEdit" type="TextEdit" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 91.055)
+layout_mode = 2
+theme_override_font_sizes/font_size = 51
+theme_override_styles/focus = SubResource("StyleBoxEmpty_pn3rh")
+placeholder_text = "Mosque name"
+
+[node name="ApplyIqamaButton" type="Button" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 96
+theme_override_styles/focus = SubResource("StyleBoxEmpty_15otv")
+text = "apply iqama time"
+
+[node name="BackIqamaButton2" type="Button" parent="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 96
+theme_override_styles/focus = SubResource("StyleBoxEmpty_15otv")
+text = "back"
+
+[node name="ColorRect2" type="ColorRect" parent="VSplitContainer/VSplitContainer/VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+color = Color(0.258824, 0.639216, 0.619608, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/ColorRect2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MosqueNameLabel" type="Label" parent="VSplitContainer/VSplitContainer/VSplitContainer/ColorRect2/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+theme_override_fonts/font = ExtResource("1_u0mxg")
+theme_override_font_sizes/font_size = 88
+text = "Mosque name"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VSplitContainer/VSplitContainer/VSplitContainer/ColorRect2/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+theme = ExtResource("3_s0ifr")
+alignment = 1
+
+[node name="Button" type="Button" parent="VSplitContainer/VSplitContainer/VSplitContainer/ColorRect2/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+text = "1"
+
+[node name="Button2" type="Button" parent="VSplitContainer/VSplitContainer/VSplitContainer/ColorRect2/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+text = "2"
+
+[node name="Button3" type="Button" parent="VSplitContainer/VSplitContainer/VSplitContainer/ColorRect2/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+text = "*"
+
+[node name="Button4" type="Button" parent="VSplitContainer/VSplitContainer/VSplitContainer/ColorRect2/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+text = "0"
+
+[node name="ColorRect" type="ColorRect" parent="VSplitContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+color = Color(0.211765, 0.717647, 0.815686, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VSplitContainer/ColorRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 6
+theme = ExtResource("3_s0ifr")
+alignment = 1
+
+[node name="Button" type="Button" parent="VSplitContainer/ColorRect/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+text = "1"
+
+[node name="Button2" type="Button" parent="VSplitContainer/ColorRect/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+text = "2"
+
+[node name="Button3" type="Button" parent="VSplitContainer/ColorRect/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 6
+text = "3"
+
 [connection signal="pressed" from="MarginContainer/VBoxContainer/SetIqamaButton" to="." method="_on_set_iqama_button_pressed"]
 [connection signal="pressed" from="MarginContainer/ColorRect/VBoxContainer/ApplyIqamaButton" to="." method="_on_apply_iqama_button_pressed"]
 [connection signal="pressed" from="MarginContainer/ColorRect/VBoxContainer/BackIqamaButton2" to="." method="_on_back_iqama_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer2/SetIqamaButton" to="." method="_on_set_iqama_button_pressed"]
+[connection signal="pressed" from="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/ApplyIqamaButton" to="." method="_on_apply_iqama_button_pressed"]
+[connection signal="pressed" from="VSplitContainer/VSplitContainer/VSplitContainer/MarginContainer/ColorRect/VBoxContainer/BackIqamaButton2" to="." method="_on_back_iqama_button_2_pressed"]
